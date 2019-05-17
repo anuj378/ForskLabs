@@ -1,0 +1,69 @@
+[{
+		"Name": {
+			"First Name": "Anuj",
+			"Last Name": "Pareek"
+		},
+
+		"Photo": "www.GeeksforGeeks.com",
+
+		"FacultyId": 2455,
+		"Age": 17,
+		"Experience": 10,
+		"Department": "Computer Science Engineering",
+		"ClubHead": "Art & Photography",
+		"Address": {
+			"House No.": "A52",
+			"Locality": "Sitapura",
+			"City": "Jaipur",
+			"Country": "India",
+			"Planet": "Earth",
+			"Galaxy": "Milky Way"
+
+		},
+		"IsTemporary": false,
+		"CanteenAccountId": 125,
+		"contactDetails": {
+			"ContactNo": 9854555455,
+			"email": {
+				"OrgBased": "helloAnony@anandice.ac.in",
+				"personal": "anyRandom@gmail.com"
+			}
+		},
+		"ReasearchAreas": ["ML", "DL", "DB", "MCBC", "MCA"]
+
+	},
+	{
+		"Name": {
+			"First Name": "Akarsh",
+			"Last Name": "Pareek"
+		},
+
+		"Photo": "www.GeeksforGeeks.com",
+
+		"FacultyId": 4665465,
+		"Age": 32,
+		"Experience": 1,
+		"Department": "Computer Science Engineering",
+		"ClubHead": null,
+		"Address": {
+			"House No.": "A53",
+			"Locality": "Jagatpura",
+			"City": "Jaipur",
+			"Country": "India",
+			"Planet": "Earth",
+			"Galaxy": "Milky Way"
+
+		},
+		"IsTemporary": true,
+		"CanteenAccountId": null,
+		"contactDetails": {
+			"ContactNo": 9854555455,
+			"email": {
+				"OrgBased": "helloAnony@anandice.ac.in",
+				"personal": "anyRandom@gmail.com"
+			}
+		},
+		"ReasearchAreas": ["ML"]
+
+	}
+]

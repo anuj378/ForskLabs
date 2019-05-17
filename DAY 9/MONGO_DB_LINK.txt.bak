@@ -1,0 +1,3 @@
+
+client = pymongo.MongoClient("mongodb://Anuj378:<password>@firstcluster-shard-00-00-xd34b.mongodb.net:27017,firstcluster-shard-00-01-xd34b.mongodb.net:27017,firstcluster-shard-00-02-xd34b.mongodb.net:27017/test?ssl=true&replicaSet=FirstCluster-shard-0&authSource=admin&retryWrites=true")
+

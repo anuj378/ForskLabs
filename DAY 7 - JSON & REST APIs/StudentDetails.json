@@ -1,0 +1,40 @@
+
+{
+ "Name":{"First Name": "Anuj",
+         "Last Name" : "Pareek"} ,
+  "Parents" :{
+          "Father":{
+                    "Name": "Anuj Pareek",
+                    "Profession" :"Businessmen",
+                    "ContactNo":9859448564
+                   }
+          ,
+          "Mother":{
+                    "Name": "Anuj Pareek",
+                    "Profession" :"Housewife",
+                    "ContactNo":9859448564
+                   }
+             },
+          
+  "Photo" : "www.GeeksforGeeks.com",
+  "ContactNo":9859448564,
+  "StudentId": 112112,
+  "AggResult" : 77.86,
+  "Age" : 20,
+  "Branch" : "Computer Science Engineering",
+  "Clubs" : ["Art & Photography","Singing","Robotics","Eco and Rural Aids"],
+  "Address" : {
+                 "House No." : "A52",
+                 "Locality" : "Sitapura",
+                 "City" :  "Jaipur",
+                 "Country" : "India",
+                 "Planet" : "Earth",
+                 "Galaxy" : "Milky Way"
+                 
+              },
+  "IsATopper" : false  
+        
+}
+ 
+ 
+  
