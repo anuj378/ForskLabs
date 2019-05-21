@@ -1,3 +1,4 @@
+
 """
 Code Challenge
   Name: 
@@ -20,9 +21,10 @@ Code Challenge
     True
 """
 
-    
-s1=(input().split(' '))
-print(any([x==x[::-1] for x in s1])   and   all([x>0 for x in [int(x) for x in s1]]) )
+# give list of inputs from user
+user_input = input("Enter space seperated values :").split()
 
-    
-    
+if all([int(i)>0 for i in user_input]) and any([i==i[::-1] for i in user_input]):
+    print ("True")
+else:
+    print ("False")
