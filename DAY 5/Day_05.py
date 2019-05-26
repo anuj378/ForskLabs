@@ -244,8 +244,7 @@ There are methods like start() and end() to know the
 start and end position of matching pattern in the string.
 """
 
-
-result = re.match(r'Forsk', 'Forsk forsk Summer Bootcamp')
+result = re.match('Forsk', 'Forsk forsk Summer Bootcamp')
 
 print (result.start())
 print (result.end())
@@ -263,11 +262,13 @@ result=pattern.findall('Forsk Summer Bootcammp')
 print (result)
      
 #------------------------------------
-result=re.findall(r'\w{3}','ForskSummerBootcamp')
+result=re.findall(r'\w{3}','Fors kS ummerBootcammmp')
 print (result)
 
 #to skip blanks
-result=re.findall(r'\w+','Forsk Summer Bootcamp')
+result=re.findall(r'\w+','F orsk Summer Bootcamp')
+
+result = re.findall(r'\w+@\w+\.\w+', "a@gammil.com")
 print (result)
 
 #-----------------------------------
@@ -278,7 +279,7 @@ print (result)
 result=re.findall(r'\w+$','Forsk Summer Bootcamp')
 print (result)
 
-result=re.findall(r'\w\w','Forsk Summer Bootcamp')
+result=re.findall(r'\w\w','F orsk Summer Bootcamp')
 print (result)
 
 #-----------------------------------
@@ -298,13 +299,13 @@ li=['+91-7999999999', \
     '399999-999', \
     '99999x9999', '2999999999']
 
-
+#[^aer]   ads  res emp swa
 for val in li:
  if re.findall(r'\+?[0-9]{0,2}-?[1-9]{1}[0-9]{9}',val):
      print ('yes')
  else:
      print ('no')
-
+#re.findall(r'\d|\w+',"Fo ")
 
 
 

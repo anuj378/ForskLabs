@@ -635,6 +635,7 @@ df['salary'] = pd.to_numeric(df['salary'])
 df["bool_sex"] = df["sex"].map(lambda x: 0 if x == 'Male' else 1 )
 df
 
+3935+2127
 
 
 """
