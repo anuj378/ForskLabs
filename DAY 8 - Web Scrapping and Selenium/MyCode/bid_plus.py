@@ -25,9 +25,11 @@ Code Challenge:
 from selenium import webdriver
 from collections import OrderedDict
 import pandas as pd
-driver=webdriver.Firefox(executable_path=r'C:\Users\Windows10\Desktop\FORSK\DAY 8 - Web Scrapping and Selenium\geckodriver.exe')
+from time import sleep
+driver=webdriver.Firefox(executable_path=r'geckodriver.exe')
 res=driver.get('https://bidplus.gem.gov.in/bidlists')
 
+sleep(5)
 
 
 #main_div=driver.find_element_by_xpath('//*[@id="pagi_content"]')
@@ -57,8 +59,15 @@ Dept_Name_and_Address,
 Start_Date,
 End_Date,]))
 
+for i in range(1,11):
+    temp=driver.find_element_by_xpath('/html/body/section[2]/div/div/div/div[1]/div/div/div/div[2]/div/div[1]/div[{}]/div[2]/p[1]/span'.format(i))
+    temp.click()
+    sleep(5)
+    
 df=pd.DataFrame(data)
-print(df)    
+print(df)
+
+
 
 
 """
