@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 
 plt.scatter(features[labels_pred == 0,0], features[labels_pred == 0,1],c='r', marker='+' )
 plt.scatter(features[labels_pred == 1,0], features[labels_pred == 1,1],c='g', marker='o' )
-plt.scatter(features[labels_pred == 2,0], features[labels_pred == 2,1],c='b', marker='s' )
+plt.scatter(features[labels_pred == 2,0], features[labels_pred == 2,1],c='b', marker='^' )
 plt.scatter(features[labels_pred == -1,0],features[labels_pred == -1,1],c='y', marker='*' )
 
 
